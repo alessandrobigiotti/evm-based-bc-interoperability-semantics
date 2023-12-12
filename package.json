@@ -1,0 +1,22 @@
+{
+  "name": "smartlistener",
+  "version": "0.1.0",
+  "description": "Smart Listener - inter-chain protocol",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.15",
+    "ejs": "^3.1.7",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.2.0",
+    "truffle": "5.6.6",
+    "@openzeppelin/contracts": "4.9.3"
+  },
+  "scripts": {
+    "postinstall": "truffle compile",
+    "test": "mocha"
+  },
+  "author": "Alessandro Bigiotti",
+  "license": "Apache 2.0"
+}

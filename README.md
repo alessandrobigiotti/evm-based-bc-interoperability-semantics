@@ -9,3 +9,10 @@ Smart contracts include use cases:
 
 ## Configure truffle.js
 In order to correctly deploy smart contracts, the ```truffle.js``` file must be configured by specifying the private keys of the accounts responsible for the deployments in the different chains. (```privateKeyChainA, privateKeyChainB```). Once this is done, you must specify the blockchains on which you want to deploy. In particular, for each blockcahin it is necessary to indicate the chain ID, the gas to be used, the connection URL and the address (it must relate to the private keys specified above).
+
+### Install node modules
+After the configuration is done, it is necessary to install all node modules and dependencies. To do so type from the main directory:
+```
+$ npm install
+```
+If the installation ends correctly, it is possible to deploy all smart contracts under the contract folder by executing the ```compileDeployContracts.sh``` under the scripts folder.

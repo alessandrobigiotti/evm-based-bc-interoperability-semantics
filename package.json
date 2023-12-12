@@ -1,7 +1,7 @@
 {
-  "name": "smartlistener",
+  "name": "evm_based_inter-chain",
   "version": "0.1.0",
-  "description": "Smart Listener - inter-chain protocol",
+  "description": "smart contracts semantics for interoperability between evm-based blockchains",
   "directories": {
     "test": "test"
   },

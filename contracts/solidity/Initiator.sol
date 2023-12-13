@@ -23,7 +23,7 @@ interface IStoreSamplings {
 contract Initiator {
 
     address public owner;
-    address public listener;
+    address public watchtower;
 
     mapping(string => address) sourceServiceContracts;
     mapping(address => mapping(string => uint)) public nonceSetMap;
@@ -39,9 +39,9 @@ contract Initiator {
     event interChainTransactionERC721TokenTransferRequest(address indexed from, uint indexed nonce, string indexed service, string message);
     event interChainTransactionCCSCExecRequest(address indexed from, uint indexed nonce, string indexed service, string message);
 
-    constructor(address _listener) {
+    constructor(address _watchtower) {
         owner = msg.sender;
-        listener = _listener;
+        watchtower = _watchtower;
     }
 
     function interChainTransactionRequestSyncData(

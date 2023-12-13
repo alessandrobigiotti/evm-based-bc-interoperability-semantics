@@ -24,7 +24,7 @@ interface IAggregateData {
 contract Finalizer {
 
     address public owner;
-    address public listener;
+    address public watchtower;
     mapping(string => address) private sourceServiceContracts;
 
     string constant SYNC_DATA = "SYNC_DATA";
@@ -38,9 +38,9 @@ contract Finalizer {
     event interChainTransactionERC721TokenTransferCompleted(address indexed from, string indexed _from, uint nonce, string message);
     event interChainTransactionCCSCExecCompleted(address indexed from, string indexed _from, uint nonce, string message);
 
-    constructor(address _listener) {
+    constructor(address _watchtower) {
         owner = msg.sender;
-        listener = _listener;
+        watchtower = _watchtower;
     }
 
     function interChainTransactionSyncDataFinalize(

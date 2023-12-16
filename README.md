@@ -19,9 +19,9 @@ If the installation ends correctly, it is possible to deploy all smart contracts
 
 **NOTICE:** If you want to deploy and tests the smart contracts on [Remix](https://remix.ethereum.org) it is necessary to update the Openzeppelin dependencies. To do so you have to modify the Initiator, Finalizer, SimpleERC20Token and SimpleERC721Token smart contracts as follows:
 - Initiator and Finalizer: replace the {Strings} import with:
-  -```import {Strings} from "@openzeppelin/contracts@4.9.3/utils/Strings.sol";```
+  - ```import {Strings} from "@openzeppelin/contracts@4.9.3/utils/Strings.sol";```
 - SimpleERC20Token: replace the ERC20 import with:
-  -```import "@openzeppelin/contracts@4.9.3/token/ERC20/ERC20.sol";```
+  - ```import "@openzeppelin/contracts@4.9.3/token/ERC20/ERC20.sol";```
 - SimpleERC721Token: replace the ERC721 import with:
   - ```import "@openzeppelin/contracts@4.9.3/token/ERC721/ERC721.sol";```
   - ```import "@openzeppelin/contracts@4.9.3/token/ERC721/extensions/ERC721Burnable.sol";```

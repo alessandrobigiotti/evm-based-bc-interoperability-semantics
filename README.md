@@ -1,4 +1,4 @@
-# Event Semantics for Interoperability Between EVM-based Blockchains
+# Interoperability Between EVM-based Blockchains
 
 This project contains "demonstration" smart contracts for defining semantics in interoperability between blockchains based on Ethereum Virtual Machine (EVM).
 

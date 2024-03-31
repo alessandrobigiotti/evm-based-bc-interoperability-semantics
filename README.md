@@ -25,3 +25,6 @@ If the installation ends correctly, it is possible to deploy all smart contracts
 - SimpleERC721Token: replace the ERC721 import with:
   - ```import "@openzeppelin/contracts@4.9.3/token/ERC721/ERC721.sol";```
   - ```import "@openzeppelin/contracts@4.9.3/token/ERC721/extensions/ERC721Burnable.sol";```
+
+## Disclaimer
+THIS SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.

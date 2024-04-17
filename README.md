@@ -1,6 +1,6 @@
 # Interoperability Between EVM-based Blockchains
 
-This project contains "demonstration" smart contracts for defining semantics in interoperability between blockchains based on Ethereum Virtual Machine (EVM).
+This project contains "demonstration" smart contracts for defining semantics in interoperability between blockchains based on Ethereum Virtual Machine (EVM). The source code refers to the publication [Interoperability Between EVM-based Blockchains](https://link.springer.com/chapter/10.1007/978-3-031-57853-3_9)
 
 Smart contracts include use cases:
 - Token Transfer (ERC20 and ERC721)
@@ -26,5 +26,29 @@ If the installation ends correctly, it is possible to deploy all smart contracts
   - ```import "@openzeppelin/contracts@4.9.3/token/ERC721/ERC721.sol";```
   - ```import "@openzeppelin/contracts@4.9.3/token/ERC721/extensions/ERC721Burnable.sol";```
 
+## Reference
+
+The content can be used to conduct research or provide further testing and use cases. Please be careful to cite the source from which this work comes:
+
+Plain:
+
+A. Bigiotti, L. Mostarda, A. Navarra, A. Pinna, R. Tonelli, and M. Vaccargiu, *“Interoperability between evm-based blockchains”*, in Advanced Information Networking and Applications, L. Barolli, Ed. Cham: Springer Nature Switzerland, 2024, pp. 98–109.
+
+Bibtex:
+
+```
+@InProceedings{10.1007/978-3-031-57853-3_9,
+    author={Bigiotti, Alessandro and Mostarda, Leonardo and Navarra, Alfredo and
+       Pinna, Andrea and Tonelli, Roberto and Vaccargiu, Matteo},
+    editor={Barolli, Leonard},
+    title={Interoperability Between EVM-Based Blockchains},
+    booktitle={Advanced Information Networking and Applications},
+    year={2024},
+    publisher={Springer Nature Switzerland},
+    address={Cham},
+    pages={98--109},
+    isbn={978-3-031-57853-3}
+}
+```
 ## Disclaimer
 THIS SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
